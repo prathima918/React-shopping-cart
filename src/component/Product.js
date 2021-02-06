@@ -17,8 +17,8 @@ class Product extends Component {
                                 </p>
                             </div>
                             <div>
-                                <p>{product.price}</p>
-                                <button>Add to cart</button>
+                                <p>Rs {product.price}</p>
+                                <button className="btn btn-warning">Add to cart</button>
                             </div>
                         </li>
                     )

@@ -5,7 +5,7 @@
             "image": "/images/3.png",
             "title": "skirt with crop top",
             "description": "This is for all the latest trends",
-            "sizes": [
+            "avaialableSizes": [
                 "x",
                 "L",
                 "xl",
@@ -19,56 +19,53 @@
             "image": "/images/2.jpg",
             "title": "skirt with crop top",
             "description": "This is for all the latest trends",
-            "sizes": [
+            "avaialableSizes": [
                 "x",
                 "L",
-                "xl",
                 "xxl",
                 "xxxl"
             ],
-            "price": 30
+            "price": 40
         },
         {
             "_id": "dress3",
             "image": "/images/1.jpg",
             "title": "skirt with crop top",
             "description": "This is for all the latest trends",
-            "sizes": [
+            "avaialableSizes": [
                 "x",
                 "L",
-                "xl",
                 "xxl",
                 "xxxl"
             ],
-            "price": 30
+            "price": 50
         },
         {
-            "_id": "dress3",
+            "_id": "dress4",
             "image": "/images/1.jpg",
             "title": "skirt with crop top",
             "description": "This is for all the latest trends",
-            "sizes": [
+            "avaialableSizes": [
                 "x",
-                "L",
                 "xl",
                 "xxl",
                 "xxxl"
             ],
-            "price": 30
+            "price": 40
         },
         {
-            "_id": "dress3",
+            "_id": "dress5",
             "image": "/images/2.jpg",
             "title": "skirt with crop top",
             "description": "This is for all the latest trends",
-            "sizes": [
+            "avaialableSizes": [
                 "x",
                 "L",
                 "xl",
                 "xxl",
                 "xxxl"
             ],
-            "price": 30
+            "price": 100
         }
     ]
 }
