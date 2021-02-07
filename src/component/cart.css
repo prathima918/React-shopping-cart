@@ -1,0 +1,41 @@
+
+.cart-header {
+width: 100%;   
+margin-top: 20px; 
+}
+
+.cart-header span {
+    font-size: 540;
+}
+
+.cart-items img {
+    height: 100px;
+}
+
+.cart {
+    list-style-type: none;
+    margin-top: 30px;
+    background: #fff;
+    padding: 10px;
+}
+
+.p0 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.cart-items h5 {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.cart-items button {
+    font-size: 12px;
+}
+
+.item-scroll {
+    height: 300px;
+    overflow-y: auto;
+    
+}
