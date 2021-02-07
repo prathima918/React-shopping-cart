@@ -17,18 +17,13 @@
   background-color: #60b3b7;
 }
 
-.modal {
-    position: fixed;
+.checkout-cart .modal {
     top: auto;
     right: 0;
-    width: 400px;
     bottom: 0px;
      left: auto;
-    z-index: 1050;
-    display: none;
-    overflow: hidden;
-    outline: 0;
-    color: #fff;
+     width: 400px;
+
 }
 
 .btm-space {
