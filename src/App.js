@@ -4,6 +4,8 @@ import data from './data.json';
 import Filter from './component/Filter';
 import './App.css'
 import Cart from './component/Cart';
+import Fade from 'react-reveal/Fade'
+import Slide from 'react-reveal/Slide'
 
 class App extends React.Component {
   constructor() {
@@ -81,17 +83,28 @@ class App extends React.Component {
     return (
       <div>
 
-        <div className="header">
-          <h2>Shopping Cart</h2>
-        </div>
+        <Fade left casecade>
+          <div className="header">
+            <h2>Shopping Cart</h2>
+          </div>
+        </Fade>
 
         <div className="col-md-12">
           <div className="row">
+
             <div className="col-md-8">
-              <div className="container">
-                <Product products={this.state.products} addToCart={this.addToCart} />
-              </div>
+              <Slide bottom casecade>
+
+                <div className="container">
+
+                  <Product products={this.state.products} addToCart={this.addToCart} />
+
+                </div>
+              </Slide>
+
             </div>
+
+
             <div className="col-md-3 sidebar">
               <Filter
                 count={this.state.products.length}
@@ -101,12 +114,15 @@ class App extends React.Component {
                 sortProducts={this.sortProducts}
               >
               </Filter>
+
               <Cart cartItems={this.state.cartItems} removeItems={this.removeItems} createOrder={this.createOrder} />
+
             </div>
           </div>
 
         </div>
       </div>
+
     )
 
   }
