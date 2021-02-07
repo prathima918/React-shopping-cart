@@ -2,8 +2,8 @@
     "products": [
         {
             "_id": "dress1",
-            "image": "/images/3.png",
-            "title": "skirt with crop top",
+            "image": "/images/3.jpg",
+            "title": "Skirt with crop ",
             "description": "This is for all the latest trends",
             "avaialableSizes": [
                 "x",
@@ -12,12 +12,12 @@
                 "xxl",
                 "xxxl"
             ],
-            "price": 30
+            "price": 500
         },
         {
             "_id": "dress2",
-            "image": "/images/2.jpg",
-            "title": "skirt with crop top",
+            "image": "/images/4.jpg",
+            "title": "Skirt",
             "description": "This is for all the latest trends",
             "avaialableSizes": [
                 "x",
@@ -25,12 +25,12 @@
                 "xxl",
                 "xxxl"
             ],
-            "price": 40
+            "price": 400
         },
         {
             "_id": "dress3",
-            "image": "/images/1.jpg",
-            "title": "skirt with crop top",
+            "image": "/images/5.jpg",
+            "title": "Skirt",
             "description": "This is for all the latest trends",
             "avaialableSizes": [
                 "x",
@@ -38,12 +38,12 @@
                 "xxl",
                 "xxxl"
             ],
-            "price": 50
+            "price": 900
         },
         {
             "_id": "dress4",
             "image": "/images/1.jpg",
-            "title": "skirt with crop top",
+            "title": "Frock",
             "description": "This is for all the latest trends",
             "avaialableSizes": [
                 "x",
@@ -51,12 +51,26 @@
                 "xxl",
                 "xxxl"
             ],
-            "price": 40
+            "price": 600
         },
         {
             "_id": "dress5",
             "image": "/images/2.jpg",
-            "title": "skirt with crop top",
+            "title": "Selvar set",
+            "description": "This is for all the latest trends",
+            "avaialableSizes": [
+                "x",
+                "L",
+                "xl",
+                "xxl",
+                "xxxl"
+            ],
+            "price": 299
+        },
+        {
+            "_id": "dress6",
+            "image": "/images/1.jpg",
+            "title": "Skirt with top",
             "description": "This is for all the latest trends",
             "avaialableSizes": [
                 "x",
@@ -66,6 +80,62 @@
                 "xxxl"
             ],
             "price": 100
+        },
+        {
+            "_id": "dress7",
+            "image": "/images/5.jpg",
+            "title": "Lehenga",
+            "description": "This is for all the latest trends",
+            "avaialableSizes": [
+                "x",
+                "L",
+                "xl",
+                "xxl",
+                "xxxl"
+            ],
+            "price": 390
+        },
+        {
+            "_id": "dress8",
+            "image": "/images/4.jpg",
+            "title": "skirt ",
+            "description": "This is for all the latest trends",
+            "avaialableSizes": [
+                "x",
+                "L",
+                "xl",
+                "xxl",
+                "xxxl"
+            ],
+            "price": 340
+        },
+        {
+            "_id": "dress9",
+            "image": "/images/3.jpg",
+            "title": "crop top",
+            "description": "This is for all the latest trends",
+            "avaialableSizes": [
+                "x",
+                "L",
+                "xl",
+                "xxl",
+                "xxxl"
+            ],
+            "price": 400
+        },
+        {
+            "_id": "dress10",
+            "image": "/images/2.jpg",
+            "title": "skirt with crop",
+            "description": "This is for all the latest trends",
+            "avaialableSizes": [
+                "x",
+                "L",
+                "xl",
+                "xxl",
+                "xxxl"
+            ],
+            "price": 230
         }
     ]
 }
